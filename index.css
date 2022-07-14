@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto';font-size: 18px;
+  background-color: rgb(203, 216, 174);
+}
+
+.todo-box {
+  background: antiquewhite;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 40vh;
+  min-height: 550px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px 1px #888888;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.todo-box h1 {
+  text-align: center;
+  font-size: 75px;
+  
+}
+
+.new-todo1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.new-todo2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+.todo-input {
+  width: 100%;
+  display: flex;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  height: 75px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px 1px #888888;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  
+}
+
+.todo-list {
+  margin: auto;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  text-transform: uppercase;
+  text-align-last: end;
+  text-align-last: justify;
+  font-weight:600;
+  
+}
+
+.todolist-item {
+  background-color: rgb(235, 152, 217);
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 0px 10px 10px 1px #888888;
+  
+}
+
+.addbtn {
+  margin: auto;
+  width: 33%;
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  height: 25px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 10px 1px #888888;
+  border-width: 2px;
+}
+
+.addbtn span {
+  margin: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer a{
+  color:white;
+  text-decoration: none;
+}
